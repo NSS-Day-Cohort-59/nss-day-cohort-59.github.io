@@ -1,0 +1,253 @@
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: url("../images/background.jpg") fixed no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+blockquote{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #ddd;
+    padding: 2em;
+}
+
+.navbar{
+    background-color: rgb(55, 55, 56);
+    padding: 20px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+    background: white !important;
+}
+.navbar-brand{
+    display: flex;
+}
+.nav-spacing {
+  margin-right: 2em;
+}
+
+#cohort22{
+    display: inline-block;
+    color: #238193;
+}
+
+#jumbheader{
+    box-shadow: 2px 2px 2px rgb(167, 166, 166);
+    background-color: #238193!important;
+    color: lightgray;
+
+}
+.header-text{
+    margin: 0 auto;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 50px;
+    color: white;
+
+}
+
+.title-font {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+.jumbotron.jumbotron-fluid{
+    background: none;
+   }
+.jumbotron.jumbotron-fluid img{
+    background: none;
+    width:100%;
+    margin-top: -80px;
+   }
+
+main {
+    margin-bottom: 20px;
+    margin-top: -30px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+.row{
+    justify-content: center;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.col-md-3.cohortMems{
+    border: 1px solid lightgray;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px lightgray;
+    margin: 10px;
+    margin-bottom: 25px;
+    background: white;
+}
+
+.col-sm-2.technologies{
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.technos, .words{
+    margin-top: -55px;
+    background: white;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.techs{
+    width: 70px;
+    margin: 20px 0px;
+  }
+
+.words{
+    padding:50px;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+.col,
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.modal-body{
+    display: block;
+  }
+
+  .studentContact{
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+      -webkit-justify-content: space-evenly;
+      margin-bottom: .75rem;
+  }
+
+  .contactIcons{
+      color: #238193;
+  }
+  .contactIcons:hover{
+      transform: scale(1.2);
+  }
+
+  .modal-header{
+    background-color: lightgray!important;
+    color: #238193;
+  }
+
+  .modal-body img{
+    width: 50%;
+    height: 50%;
+    box-shadow: 3px 3px 5px #cacaca;
+    border-radius: 10px;
+  }
+
+  .backButton{
+      margin-bottom: 1.5rem;
+  }
+
+.navbar.navbar-light.bg-light.footer{
+    margin-top:10px;
+    font-size: 1em;
+    background-color: #238193!important;
+    color: white;
+}
+
+#demo-date {
+    text-align: center;
+}
+
+#demo-date a {
+    color: #238193!important;
+}
+
+button{
+    cursor: pointer;
+}
+.btn-outline-primary{
+    color: #238193!important;
+    border-color: #238193!important;
+}
+
+.btn-outline-primary:hover{
+    color: white!important;
+    background-color: #238193!important;
+}
+
+/* adjusts size of contact icons depending on size of card */
+@media (min-width: 992px) and (max-width: 1200px){
+    .fa-3x{
+        font-size: 2.5em!important;
+      }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .fa-3x{
+        font-size: 2em!important;
+      }    
+}
+
+
+@media (max-width: 900px) {
+
+    /* body {
+        background: url("../assets/images/bg.jpg") repeat;
+    } */
+    .jumbotron.jumbotron-fluid img{
+        background: white;
+        margin-top:30px;
+       }
+       .jumbotron.jumbotron-fluid.sm-width{
+        width: 100%;
+    }
+       .header-text{
+        margin: 0 auto;
+        height: 30px;
+       }
+       .header-text h2{
+        font-size: 1.5em;
+        margin-top: -10px;
+       }
+       .modal-body{
+        display: block;
+      }
+      .modal-content {
+        width: 100%;
+    }
+       .modal-body img{
+        width: 100%;
+      }
+      main {
+        margin-bottom: 100px;
+        margin-top: -50px;
+        width: 100%
+      }
+      .navbar-brand img{
+        padding-right: none;
+      }
+
+}

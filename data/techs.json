@@ -1,0 +1,142 @@
+{
+    "techs": [
+        {
+            "id": 1,
+            "name": "Javascript",
+            "image": "javascript.png",
+            "link": "https://www.javascript.com/"
+        },
+        {
+            "id": 2,
+            "name": "AngularJS",
+            "image": "angularjs.png",
+            "link": "https://angularjs.org/"
+        },
+        {
+            "id": 3,
+            "name": "jQuery",
+            "image": "jquery.png",
+            "link": "https://jquery.com/"
+        },
+        {
+            "id": 4,
+            "name": "Git",
+            "image": "git.png",
+            "link": "https://git-scm.com"
+        },
+        {
+            "id": 5,
+            "name": "Github",
+            "image": "github.png",
+            "link": "https://github.com/"
+        },
+        {
+            "id": 6,
+            "name": "Grunt",
+            "image": "grunt.png",
+            "link": "https://gruntjs.com/"
+        },
+        {
+            "id": 7,
+            "name": "HTML5",
+            "image": "html5.png",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+        },
+        {
+            "id": 8,
+            "name": "CSS3",
+            "image": "css3.png",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+        },
+        {
+            "id": 9,
+            "name": "Sass",
+            "image": "sass.png",
+            "link": "https://sass-lang.com/"
+        },
+        {
+            "id": 10,
+            "name": "Bootstrap",
+            "image": "bootstrap.png",
+            "link": "https://getbootstrap.com/"
+        },
+        {
+            "id": 11,
+            "name": "Browserify",
+            "image": "browserify.png",
+            "link": "http://browserify.org/"
+        },
+        {
+            "id": 12,
+            "name": "Firebase",
+            "image": "firebase.png",
+            "link": "https://firebase.google.com"
+        },
+        {
+            "id": 13,
+            "name": "Materialize",
+            "image": "materialize.png",
+            "link": "http://materializecss.com/"
+        },
+        {
+            "id": 14,
+            "name": "NPM",
+            "image": "npm.png",
+            "link": "https://www.npmjs.com/"
+        },
+        {
+            "id": 15,
+            "name": "SQLite3",
+            "image": "sqlite.png",
+            "link": "https://www.sqlite.org/"
+        },
+        {
+            "id": 16,
+            "name": "SQL Server",
+            "image": "sqlserver.png",
+            "link": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+        },
+        {
+            "id": 17,
+            "name": "Visual Studio Code",
+            "image": "vsc.png",
+            "link": "https://code.visualstudio.com/"
+        },
+        {
+            "id": 18,
+            "name": "C#",
+            "image": "csharp.png",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        },
+        {
+            "id": 19,
+            "name": ".NET Core",
+            "image": "dotnetcore.png",
+            "link": "https://www.microsoft.com/net/"
+        },
+        {
+            "id": 20,
+            "name": "Visual Studio",
+            "image": "VisualStudio.png",
+            "link": "https://www.visualstudio.com/vs/"
+        },
+        {
+            "id": 21,
+            "name": ".Net MVC",
+            "image": "aspnetMVC.png",
+            "link": "https://www.asp.net/mvc"
+        },
+        {
+            "id": 22,
+            "name": "ES lint",
+            "image": "eslint.png",
+            "link": "https://eslint.org/"
+        },
+        {
+            "id": 23,
+            "name": "UglifyJs",
+            "image": "uglify.png",
+            "link": "https://www.npmjs.com/package/uglifyjs"
+        }
+    ]
+}
