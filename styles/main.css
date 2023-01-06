@@ -96,11 +96,11 @@ main {
 
 .col-md-3.cohortMems {
     border: 1px solid lightgray;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 2px 2px lightgray;
     margin: 10px;
     margin-bottom: 25px;
-    background: rgb(227, 227, 227);
+    background: rgb(255, 255, 255);
 }
 
 .col-sm-2.technologies {
@@ -134,8 +134,9 @@ main {
 .card-img-top {
     width: 290px;
     height: 420px;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-radius: 1em;
+    text-align: center;
+    margin: 10px;
 }
 
 .col,
@@ -172,7 +173,7 @@ main {
 .modal-body img {
     width: 50%;
     height: 50%;
-    box-shadow: 3px 3px 5px #9d9d9d;
+    box-shadow: 3px 3px 5px #8c8c8c;
     border-radius: 10px;
 }
 
