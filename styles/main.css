@@ -100,7 +100,7 @@ main {
     box-shadow: 2px 2px 2px lightgray;
     margin: 10px;
     margin-bottom: 25px;
-    background: white;
+    background: rgb(204, 225, 255);
 }
 
 .col-sm-2.technologies {
@@ -132,9 +132,8 @@ main {
 }
 
 .card-img-top {
-    width: 300px;
-    height: 430px;
-    border-radius: 1em;
+    width: 290px;
+    height: 420px;
     z-index: 2;
 }
 
@@ -153,7 +152,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     -webkit-justify-content: space-evenly;
-    margin-bottom: .75rem;
+    margin-bottom: .85rem;
 }
 
 .contactIcons {
@@ -172,7 +171,7 @@ main {
 .modal-body img {
     width: 50%;
     height: 50%;
-    box-shadow: 3px 3px 5px #cacaca;
+    box-shadow: 3px 3px 5px #fbf2f2;
     border-radius: 10px;
 }
 
