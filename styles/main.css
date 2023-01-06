@@ -6,7 +6,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/lotus.jpg") fixed repeat;
+    background: url("../images/tech.jpg") fixed;
     background-size: 100%;
     background-color: black;
 }
@@ -135,6 +135,7 @@ main {
     width: 285px;
     height: 428px;
     border-radius: 1em;
+    z-index: 2;
 }
 
 .col,

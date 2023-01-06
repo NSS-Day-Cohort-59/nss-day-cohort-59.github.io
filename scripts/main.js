@@ -1,6 +1,6 @@
 // initialize the tool-tip plugin for Bootstrap4
 $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip()
 })
 
 
@@ -46,11 +46,10 @@ function cohortMembers(list) {
     studentContact += `</div>`
 
     let studentInfo = `<div class="col-md-3 cohortMems">
-          <img class="card-img-top" src="images/classmates/${item.proImg}"
-          onmouseover=src="../images/classmates/${item.funImg}"
-          onmouseout=src="images/classmates/${item.proImg}"
-          height="330"
-          alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+        <img class="card-img-top" src="images/classmates/${item.proImg}"
+        onmouseover=src="../images/classmates/${item.funImg}"
+        onmouseout=src="images/classmates/${item.proImg}"
+        alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" 
           <div class="card-body">
             <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
     //if student didn't provide a reelthemin quote then nothing is displayed
@@ -60,16 +59,16 @@ function cohortMembers(list) {
     studentInfo += studentContact
 
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
-    if(item.bio != null){
+    if (item.bio != null) {
 
-    studentInfo += `
+      studentInfo += `
             <center><button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#cohortMember${item.id}">
            Learn More!
           </button></center>
           </div>
         </div>`
-    //modal info
-    studentInfo +=`
+      //modal info
+      studentInfo += `
         <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -84,10 +83,10 @@ function cohortMembers(list) {
 
             `
 
-    studentInfo += studentContact
+      studentInfo += studentContact
 
 
-    studentInfo += `
+      studentInfo += `
       
     ${item.bio}
     </div>
