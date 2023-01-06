@@ -42,7 +42,7 @@ blockquote {
 
 #jumbheader {
     box-shadow: 2px 2px 2px rgb(254, 242, 242);
-    background-color: #e5e5e5 !important;
+    background-color: #001e48 !important;
     color: lightgray;
 
 }
@@ -95,7 +95,7 @@ main {
 }
 
 .col-md-3.cohortMems {
-    border: 0px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 2px 2px 2px lightgray;
     margin: 10px;
@@ -134,8 +134,8 @@ main {
 .card-img-top {
     width: 290px;
     height: 420px;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
 .col,
@@ -165,7 +165,7 @@ main {
 }
 
 .modal-header {
-    background-color: lightgray !important;
+    background-color: rgb(206, 221, 255) !important;
     color: #001e48;
 }
 
@@ -200,7 +200,7 @@ button {
 }
 
 .btn-outline-primary {
-    color: #5571b3 !important;
+    color: #001e48 !important;
     border-color: #001e48 !important;
 }
 
