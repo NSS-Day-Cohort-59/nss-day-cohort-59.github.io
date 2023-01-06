@@ -12,8 +12,8 @@ body {
 }
 
 blockquote {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: #ddd;
     padding: 2em;
 }
@@ -35,15 +35,14 @@ blockquote {
     margin-right: 2em;
 }
 
-ing #cohort22 {
+#cohort22 {
     display: inline-block;
-    color: lightgray;
+    color: #238193;
 }
 
 #jumbheader {
-    box-shadow: 2px 2px 2px rgb(104, 104, 104);
-    background-color: #001e48 !important;
-    text-align: center;
+    box-shadow: 2px 2px 2px rgb(167, 166, 166);
+    background-color: #238193 !important;
     color: lightgray;
 }
 
@@ -57,11 +56,10 @@ ing #cohort22 {
 
 .header-text {
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 10px;
     font-weight: bold;
     height: 50px;
     color: white;
-
 }
 
 .title-font {
@@ -72,7 +70,6 @@ ing #cohort22 {
 .logo {
     height: 50px;
 }
-
 
 .jumbotron.jumbotron-fluid {
     background: none;
@@ -104,22 +101,17 @@ main {
 
 .col-md-3.cohortMems {
     border: 1px solid lightgray;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(151, 151, 151);
     background: rgb(255, 255, 255);
-    justify-content: space-evenly;
+    margin: 10px;
+    margin-bottom: 25px;
 }
 
 .col-sm-2.technologies {
     border: none;
     border-radius: none;
     box-shadow: none;
-}
-
-.card-img-top {
-    width: 300px;
-    border-radius: 20px;
-    text-align: center;
 }
 
 .technos,
@@ -142,6 +134,13 @@ main {
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
+}
+
+.card-img-top {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
 }
 
 .col,
@@ -178,7 +177,7 @@ main {
 .modal-body img {
     width: 50%;
     height: 50%;
-    box-shadow: 3px 3px 5px #8c8c8c;
+    box-shadow: 3px 3px 5px #cacaca;
     border-radius: 20px;
 }
 
@@ -189,7 +188,7 @@ main {
 .navbar.navbar-light.bg-light.footer {
     margin-top: 10px;
     font-size: 1em;
-    background-color: #001e48 !important;
+    background-color: #238193 !important;
     color: white;
 }
 
