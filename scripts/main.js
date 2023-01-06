@@ -49,7 +49,7 @@ function cohortMembers(list) {
         <img class="card-img-top" src="images/classmates/${item.proImg}"
         onmouseover=src="../images/classmates/${item.funImg}"
         onmouseout=src="images/classmates/${item.proImg}"
-        alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+        alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" 
           <div class="card-body">
             <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
     //if student didn't provide a reelthemin quote then nothing is displayed
