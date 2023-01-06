@@ -52,7 +52,6 @@ function cohortMembers(list) {
           onmouseout=src="images/classmates/${item.proImg}"
           alt="${item.firstName} ${item.lastName}" data-toggle="modal" 
           data-target="#cohortMember${item.id}"
-        />
 
     <div class="card-body">
       <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
