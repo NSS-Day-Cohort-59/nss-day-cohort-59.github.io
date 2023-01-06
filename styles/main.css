@@ -35,29 +35,30 @@ blockquote {
     margin-right: 2em;
 }
 
-#cohort22 {
+#cohort59 {
     display: inline-block;
-    color: #238193;
+    color: #001245;
 }
 
 #jumbheader {
-    box-shadow: 2px 2px 2px rgb(167, 166, 166);
-    background-color: #1d23cc !important;
-    color: lightgray;
+    box-shadow: 2px 2px 2px rgb(56, 56, 56);
+    background-color: #000484 !important;
+    color: rgb(255, 255, 255);
 }
 
 #jumbheader2 {
     box-shadow: 2px 2px 2px rgb(65, 65, 65);
     border-radius: 20px;
     padding: 10px;
-    background-color: #92a8c6 !important;
+    background-color: #7aa9ec !important;
     text-align: center;
     color: rgb(0, 28, 76);
 }
 
 .header-text {
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: bold;
     height: 50px;
     color: white;
@@ -101,7 +102,7 @@ main {
 }
 
 .col-md-3.cohortMems {
-    border: 1px solid #1d23cc;
+    border: 1px solid #d1d1d1;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(151, 151, 151);
     background: rgb(255, 255, 255);
@@ -191,7 +192,7 @@ main {
 .navbar.navbar-light.bg-light.footer {
     margin-top: 10px;
     font-size: 1em;
-    background-color: #238193 !important;
+    background-color: #000484 !important;
     color: white;
 }
 
@@ -200,7 +201,7 @@ main {
 }
 
 #demo-date a {
-    color: #0053c6 !important;
+    color: #000484 !important;
 }
 
 button {
