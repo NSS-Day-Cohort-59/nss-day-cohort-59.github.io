@@ -35,23 +35,22 @@ blockquote {
     margin-right: 2em;
 }
 
-#cohort22 {
+ing #cohort22 {
     display: inline-block;
     color: lightgray;
 }
 
 #jumbheader {
-    box-shadow: 2px 2px 2px rgb(254, 242, 242);
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
     background-color: #001e48 !important;
     text-align: center;
     color: lightgray;
-    padding: 10px;
 
 }
 
 .header-text {
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 5px;
     font-weight: bold;
     height: 50px;
     color: white;
@@ -97,11 +96,19 @@ main {
     text-transform: uppercase;
 }
 
+.card-img-top {
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
 .col-md-3.cohortMems {
     border: 1px solid lightgray;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(151, 151, 151);
     background: rgb(255, 255, 255);
+    overflow-y: hidden;
+    overflow-x: hidden;
     width: 330px;
 }
 
@@ -131,12 +138,6 @@ main {
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
-}
-
-.card-img-top {
-    width: 315px;
-    border-radius: 20px;
-    text-align: center;
 }
 
 .col,
