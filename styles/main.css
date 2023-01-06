@@ -37,12 +37,12 @@ blockquote {
 
 #cohort22 {
     display: inline-block;
-    color: #001e48;
+    color: lightgray;
 }
 
 #jumbheader {
     box-shadow: 2px 2px 2px rgb(254, 242, 242);
-    border-radius: 30px;
+    margin: 30px;
     background-color: #001e48 !important;
     text-align: center;
     color: lightgray;
@@ -88,6 +88,7 @@ main {
 
 .row {
     justify-content: center;
+    justify-content: space-evenly;
 }
 
 .navbar-collapse {
@@ -99,7 +100,7 @@ main {
 .col-md-3.cohortMems {
     border: 1px solid lightgray;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px lightgray;
+    box-shadow: 2px 2px 2px rgb(151, 151, 151);
     margin: 10px;
     margin-bottom: 25px;
     background: rgb(255, 255, 255);
@@ -134,8 +135,7 @@ main {
 }
 
 .card-img-top {
-    width: 300px;
-    height: 430px;
+    width: 335px;
     border-radius: 20px;
     text-align: center;
     margin: 10px;
@@ -152,7 +152,7 @@ main {
 }
 
 .studentContact {
-    padding: 10px;
+    margin: 10px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
