@@ -132,8 +132,8 @@ main {
 }
 
 .card-img-top {
-    width: 290px;
-    height: 420px;
+    width: 285px;
+    height: 400px;
     z-index: 2;
 }
 
@@ -152,11 +152,11 @@ main {
     display: flex;
     justify-content: space-evenly;
     -webkit-justify-content: space-evenly;
-    margin-bottom: .85rem;
+    margin-bottom: .75rem;
 }
 
 .contactIcons {
-    color: #238193;
+    color: #930500;
 }
 
 .contactIcons:hover {
@@ -165,13 +165,13 @@ main {
 
 .modal-header {
     background-color: lightgray !important;
-    color: #238193;
+    color: #1e3581;
 }
 
 .modal-body img {
     width: 50%;
     height: 50%;
-    box-shadow: 3px 3px 5px #fbf2f2;
+    box-shadow: 3px 3px 5px #9d9d9d;
     border-radius: 10px;
 }
 
@@ -182,7 +182,7 @@ main {
 .navbar.navbar-light.bg-light.footer {
     margin-top: 10px;
     font-size: 1em;
-    background-color: #238193 !important;
+    background-color: #a1c6f9 !important;
     color: white;
 }
 
@@ -191,7 +191,7 @@ main {
 }
 
 #demo-date a {
-    color: #238193 !important;
+    color: #07387c !important;
 }
 
 button {
@@ -199,8 +199,8 @@ button {
 }
 
 .btn-outline-primary {
-    color: #238193 !important;
-    border-color: #238193 !important;
+    color: #223c77 !important;
+    border-color: #1b3e9f !important;
 }
 
 .btn-outline-primary:hover {
