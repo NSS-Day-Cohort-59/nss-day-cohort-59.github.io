@@ -101,8 +101,7 @@ main {
     border: 1px solid lightgray;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(151, 151, 151);
-    margin: 10px;
-    margin-bottom: 25px;
+    margin: 30px;
     background: rgb(255, 255, 255);
 }
 
@@ -135,10 +134,9 @@ main {
 }
 
 .card-img-top {
-    width: 335px;
+    width: 315px;
     border-radius: 20px;
     text-align: center;
-    margin: 10px;
 }
 
 .col,
