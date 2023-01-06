@@ -37,7 +37,7 @@ blockquote {
 
 #cohort22 {
     display: inline-block;
-    color: #238193;
+    color: #001e48;
 }
 
 #jumbheader {
@@ -95,12 +95,12 @@ main {
 }
 
 .col-md-3.cohortMems {
-    border: 1px solid lightgray;
+    border: 0px solid lightgray;
     border-radius: 10px;
     box-shadow: 2px 2px 2px lightgray;
     margin: 10px;
     margin-bottom: 25px;
-    background: rgb(222, 222, 222);
+    background: rgb(227, 227, 227);
 }
 
 .col-sm-2.technologies {
@@ -132,11 +132,10 @@ main {
 }
 
 .card-img-top {
-    width: 295px;
-    height: 400px;
+    width: 290px;
+    height: 420px;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
-    z-index: 2;
 }
 
 .col,
@@ -158,7 +157,7 @@ main {
 }
 
 .contactIcons {
-    color: #003d93;
+    color: #001e48;
 }
 
 .contactIcons:hover {
@@ -167,14 +166,14 @@ main {
 
 .modal-header {
     background-color: lightgray !important;
-    color: #1e3581;
+    color: #001e48;
 }
 
 .modal-body img {
     width: 50%;
     height: 50%;
     box-shadow: 3px 3px 5px #9d9d9d;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .backButton {
@@ -184,7 +183,7 @@ main {
 .navbar.navbar-light.bg-light.footer {
     margin-top: 10px;
     font-size: 1em;
-    background-color: #a1c6f9 !important;
+    background-color: #001e48 !important;
     color: white;
 }
 
@@ -193,7 +192,7 @@ main {
 }
 
 #demo-date a {
-    color: #07387c !important;
+    color: #001e48 !important;
 }
 
 button {
@@ -201,13 +200,13 @@ button {
 }
 
 .btn-outline-primary {
-    color: #223c77 !important;
-    border-color: #1b3e9f !important;
+    color: #5571b3 !important;
+    border-color: #001e48 !important;
 }
 
 .btn-outline-primary:hover {
     color: white !important;
-    background-color: #238193 !important;
+    background-color: #001e48 !important;
 }
 
 /* adjusts size of contact icons depending on size of card */
