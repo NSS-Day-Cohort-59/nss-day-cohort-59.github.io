@@ -107,6 +107,7 @@ main {
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(151, 151, 151);
     background: rgb(255, 255, 255);
+    justify-content: space-evenly;
 }
 
 .col-sm-2.technologies {
@@ -154,7 +155,6 @@ main {
 }
 
 .studentContact {
-    margin: 10px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -179,7 +179,7 @@ main {
     width: 50%;
     height: 50%;
     box-shadow: 3px 3px 5px #8c8c8c;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .backButton {
@@ -198,7 +198,7 @@ main {
 }
 
 #demo-date a {
-    color: #001e48 !important;
+    color: #0053c6 !important;
 }
 
 button {
