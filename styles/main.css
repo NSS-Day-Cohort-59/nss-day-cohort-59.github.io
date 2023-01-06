@@ -6,7 +6,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/gray.jpeg") fixed no-repeat;
+    background: url("../images/lotus.jpg") fixed repeat;
     background-size: 100%;
     background-color: black;
 }
@@ -132,8 +132,9 @@ main {
 }
 
 .card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    width: 285px;
+    height: 428px;
+    border-radius: 1em;
 }
 
 .col,
@@ -219,7 +220,6 @@ button {
         font-size: 2em !important;
     }
 }
-
 
 @media (max-width: 900px) {
 
