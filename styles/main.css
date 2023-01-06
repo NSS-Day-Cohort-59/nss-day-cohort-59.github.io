@@ -47,11 +47,12 @@ blockquote {
 }
 
 #jumbheader2 {
-    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+    box-shadow: 2px 2px 2px rgb(65, 65, 65);
     border-radius: 20px;
+    padding: 10px;
     background-color: #001e48 !important;
     text-align: center;
-    color: rgb(135, 206, 251);
+    color: rgb(174, 224, 255);
 }
 
 .header-text {
@@ -100,7 +101,7 @@ main {
 }
 
 .col-md-3.cohortMems {
-    border: 1px solid lightgray;
+    border: 1px solid rgb(231, 231, 231);
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(151, 151, 151);
     background: rgb(255, 255, 255);
@@ -137,7 +138,8 @@ main {
 }
 
 .card-img-top {
-    width: 300px;
+    width: 285px;
+    padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
@@ -155,6 +157,7 @@ main {
 
 .studentContact {
     text-align: center;
+    margin: 15px;
     display: flex;
     justify-content: space-evenly;
     -webkit-justify-content: space-evenly;
