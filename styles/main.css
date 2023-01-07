@@ -1,6 +1,7 @@
 p {
     /* font-family: 'Barlow', sans-serif; */
-    font-family: 'Special Elite', cursive;
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Lato', sans-serif;
 }
 
 html,
@@ -36,6 +37,7 @@ blockquote {
     margin-right: 2em;
 }
 
+/* css for cohort59 words on nav */
 #cohort59 {
     display: inline-block;
 
@@ -97,6 +99,7 @@ blockquote {
 .title-font {
     text-align: center;
     vertical-align: middle;
+    font-family: 'Special Elite', cursive;
 }
 
 .logo {
