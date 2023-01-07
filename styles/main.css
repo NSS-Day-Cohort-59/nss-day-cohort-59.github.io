@@ -96,9 +96,10 @@ blockquote {
 }
 
 .title-font {
-    font-family: 'Lato', sans-serif;
     text-align: center;
     vertical-align: middle;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
 }
 
 .logo {
@@ -203,6 +204,7 @@ main {
 
 .contactIcons:hover {
     transform: scale(1.2);
+    margin-top: 5px;
 }
 
 .modal-header {
