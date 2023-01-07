@@ -45,6 +45,7 @@ function cohortMembers(list) {
     }
     studentContact += `</div>`
 
+    //code for classmate photos and hover photos
     let studentInfo = `<div class="col-md-3 cohortMems">
         <img class="card-img-top" 
           src="images/classmates/${item.proImg}"
@@ -53,8 +54,8 @@ function cohortMembers(list) {
           alt="${item.firstName} ${item.lastName}" data-toggle="modal" 
           data-target="#cohortMember${item.id}"
 
-    <div class="card-body">
-      <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
+    <div class="card-body studentContact">
+      <h4 class="card-title">${item.firstName} ${item.lastName}</h4>`
 
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
