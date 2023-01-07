@@ -1,5 +1,6 @@
 p {
-    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Special Elite', cursive;
 }
 
 html,
@@ -37,7 +38,6 @@ blockquote {
 
 #cohort59 {
     display: inline-block;
-    /* color: #001245; */
 
     /* Create a conic gradient. */
     /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
@@ -68,11 +68,6 @@ blockquote {
     animation: rainbow-text-animation-rev 0.5s ease forwards;
 
     cursor: pointer;
-}
-
-/* Add animation on hover. */
-#cohort59:hover {
-    animation: rainbow-text-animation 0.5s ease forwards;
 }
 
 #jumbheader {
