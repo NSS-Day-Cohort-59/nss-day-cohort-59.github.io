@@ -68,7 +68,7 @@ blockquote {
     /* This animates it on page load and when hovering out. */
     animation: rainbow-text-animation-rev 0.5s ease forwards;
 
-    cursor: pointer;
+    important cursor: pointer;
 }
 
 #jumbheader {
@@ -93,7 +93,6 @@ blockquote {
     font-weight: bold;
     height: 50px;
     color: white;
-    font-family: 'Lato', sans-serif;
 }
 
 .title-font {
