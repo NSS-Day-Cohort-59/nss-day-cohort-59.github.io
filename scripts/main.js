@@ -54,11 +54,11 @@ function cohortMembers(list) {
           data-target="#cohortMember${item.id}"
 
     <div class="card-body">
-      <h4 class="card-title">${item.firstName} ${item.lastName}</h4>`
+      <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
 
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
-      studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center>`
+      studentInfo += `<center><p class="title-font">${item.reelThemIn}</p></center>`
     }
     studentInfo += studentContact
 
@@ -80,7 +80,7 @@ function cohortMembers(list) {
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-           <h5 class="modal-title title-font" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5>
+           <center><h5 class="modal-title" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5></center>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
