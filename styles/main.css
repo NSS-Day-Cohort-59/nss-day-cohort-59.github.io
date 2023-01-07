@@ -100,6 +100,11 @@ blockquote {
     font-family: 'Lato', sans-serif;
 }
 
+.thanks-font {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
 .logo {
     height: 50px;
 }
@@ -134,12 +139,11 @@ main {
 
 .col-md-3.cohortMems {
     border: 1px solid #d1d1d1;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 2px 2px 2px rgb(122, 122, 122);
     background: rgb(255, 255, 255);
     margin: 15px;
-    margin-bottom: 25px;
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .col-sm-2.technologies {
@@ -174,8 +178,8 @@ main {
 .card-img-top {
     width: 285px;
     padding: 10px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     text-align: center;
 }
 
@@ -196,6 +200,11 @@ main {
     justify-content: space-evenly;
     -webkit-justify-content: space-evenly;
     margin-bottom: .75rem;
+}
+
+.card-text {
+    color: #00389f;
+    margin: 15px;
 }
 
 .contactIcons {
