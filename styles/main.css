@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     background: url("../images/tech.jpg") fixed;
     background-size: 100%;
-    background-color: black;
+    background-color: lightgray;
 }
 
 blockquote {
@@ -20,7 +20,7 @@ blockquote {
 }
 
 .navbar {
-    background-color: rgb(55, 55, 56);
+    background-color: rgb(212, 212, 250);
     padding: 20px;
 }
 
@@ -81,7 +81,7 @@ blockquote {
     box-shadow: 2px 2px 2px rgb(43, 43, 43);
     border-radius: 20px;
     padding: 10px;
-    background-color: #7aa9ec !important;
+    background-color: #7096cb !important;
     text-align: center;
     color: rgb(0, 28, 76);
 }
@@ -101,12 +101,13 @@ blockquote {
 }
 
 .nav-item:hover {
-    color: #D06311;
+    color: #EE822F;
 }
 
 .thanks-font {
     text-align: justify;
     font-family: 'Lato', sans-serif;
+    color: #00023b;
 }
 
 .logo {
@@ -160,8 +161,8 @@ main {
 .words {
     margin-top: -55px;
     background: white;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .techs {
@@ -206,12 +207,12 @@ main {
 }
 
 .card-text {
-    color: #D06311;
+    color: #EE822F;
     margin: 15px;
 }
 
 .contactIcons {
-    color: #337DC1;
+    color: #0C10D4;
     margin-top: 5px;
     margin-bottom: 5px;
 }
