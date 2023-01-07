@@ -80,7 +80,7 @@ function cohortMembers(list) {
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-           <center><h5 class="modal-title" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5></center>
+           <center><h5 class="modal-header" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5></center>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
