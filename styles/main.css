@@ -70,6 +70,11 @@ blockquote {
     cursor: pointer;
 }
 
+/* Add animation on hover. */
+#cohort59:hover {
+    animation: rainbow-text-animation 0.5s ease forwards;
+}
+
 #jumbheader {
     box-shadow: 2px 2px 2px rgb(56, 56, 56);
     background-color: #000484 !important;
