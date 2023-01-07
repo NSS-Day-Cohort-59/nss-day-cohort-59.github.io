@@ -1,7 +1,6 @@
 p {
     /* font-family: 'Barlow', sans-serif; */
-    /* font-family: 'Special Elite', cursive; */
-    font-family: 'Lato', sans-serif;
+    font-family: 'Special Elite', cursive;
 }
 
 html,
@@ -94,12 +93,13 @@ blockquote {
     font-weight: bold;
     height: 50px;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 
 .title-font {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     vertical-align: middle;
-    font-family: 'Special Elite', cursive;
 }
 
 .logo {
