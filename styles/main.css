@@ -84,6 +84,8 @@ blockquote {
     background-color: #7aa9ec !important;
     text-align: center;
     color: rgb(0, 28, 76);
+    font-family: 'Special Elite', cursive;
+
 }
 
 .header-text {
@@ -98,7 +100,7 @@ blockquote {
 .title-font {
     text-align: center;
     vertical-align: middle;
-    font-size: 24px;
+    font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
 
@@ -200,11 +202,12 @@ main {
 
 .contactIcons {
     color: #2672ff;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .contactIcons:hover {
     transform: scale(1.2);
-    margin-top: 5px;
 }
 
 .modal-header {
@@ -224,7 +227,7 @@ main {
 }
 
 .navbar.navbar-light.bg-light.footer {
-    margin-top: 10px;
+    margin: 10px;
     font-size: 1em;
     background-color: #000484 !important;
     color: white;
