@@ -135,10 +135,11 @@ main {
 .col-md-3.cohortMems {
     border: 1px solid #d1d1d1;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px rgb(87, 87, 87);
+    box-shadow: 2px 2px 2px rgb(122, 122, 122);
     background: rgb(255, 255, 255);
     margin: 15px;
     margin-bottom: 25px;
+    padding: 10px;
 }
 
 .col-sm-2.technologies {

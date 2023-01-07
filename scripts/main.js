@@ -54,12 +54,12 @@ function cohortMembers(list) {
           alt="${item.firstName} ${item.lastName}" data-toggle="modal" 
           data-target="#cohortMember${item.id}"
 
-    <div class="card-body studentContact">
-      <h4 class="card-title">${item.firstName} ${item.lastName}</h4>`
+    <div class="card-body">
+      <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
 
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
-      studentInfo += `<center><p class="title-font">${item.reelThemIn}</p></center>`
+      studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center>`
     }
     studentInfo += studentContact
 
