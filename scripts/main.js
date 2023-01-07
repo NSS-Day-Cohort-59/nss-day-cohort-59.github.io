@@ -54,7 +54,7 @@ function cohortMembers(list) {
           data-target="#cohortMember${item.id}"
 
     <div class="card-body">
-      <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>`
+      <h4 class="card-title">${item.firstName} ${item.lastName}</h4>`
 
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
