@@ -67,8 +67,6 @@ blockquote {
     /* Animate the text when loading the element. */
     /* This animates it on page load and when hovering out. */
     animation: rainbow-text-animation-rev 0.5s ease forwards;
-
-    important cursor: pointer;
 }
 
 #jumbheader {
@@ -137,7 +135,7 @@ main {
 .col-md-3.cohortMems {
     border: 1px solid #d1d1d1;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px rgb(43, 43, 43);
+    box-shadow: 2px 2px 2px rgb(87, 87, 87);
     background: rgb(255, 255, 255);
     margin: 15px;
     margin-bottom: 25px;
@@ -155,6 +153,7 @@ main {
     background: white;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: rgb(43, 43, 43);
 }
 
 .techs {
@@ -225,7 +224,6 @@ main {
 }
 
 .navbar.navbar-light.bg-light.footer {
-    margin: 10px;
     font-size: 1em;
     background-color: #000484 !important;
     color: white;
