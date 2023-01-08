@@ -9,7 +9,7 @@
             "linkedIn": "https://www.linkedin.com/in/ryan-lee-allred/",
             "email": "ryanallred91@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "DeathStroke.png"
+            "funImg": "Deathstroke.png"
         },
         {
             "id": 2,
@@ -144,7 +144,7 @@
             "linkedIn": "https://www.linkedin.com/in/danielohrin/",
             "email": "daniel@ohrin.com",
             "proImg": "DanielOhrin.jpg",
-            "funImg": "Superman2.jpg"
+            "funImg": "Superman2.png"
         },
         {
             "id": 14,
@@ -177,7 +177,7 @@
             "linkedIn": "www.linkedin.com/in/justinsweeten",
             "email": "jtsweeten@gmail.com",
             "proImg": "JustinSweeten.jpg",
-            "funImg": "GreenArrow.jpg"
+            "funImg": "GreenArrow.png"
         },
         {
             "id": 17,
@@ -199,7 +199,7 @@
             "linkedIn": "https://www.linkedin.com/in/jacobgthomas/",
             "email": "jacgretho@gmail.com",
             "proImg": "JacobThomas.jpg",
-            "funImg": "Flash.jpg"
+            "funImg": "Flash.png"
         },
         {
             "id": 19,
@@ -221,7 +221,7 @@
             "linkedIn": "https://www.linkedin.com/in/reggie-williams-jr/",
             "email": "rlwjr433@gmail.com",
             "proImg": "ReginaldWilliams.jpg",
-            "funImg": "Deadpool.jpg"
+            "funImg": "Deadpool.png"
         }
     ]
 }
