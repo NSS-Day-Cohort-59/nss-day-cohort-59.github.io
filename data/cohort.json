@@ -9,7 +9,7 @@
             "linkedIn": "https://www.linkedin.com/in/ryan-lee-allred/",
             "email": "ryanallred91@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "Wolverine.png"
+            "funImg": "AquaMan.png"
         },
         {
             "id": 2,
@@ -42,7 +42,7 @@
             "linkedIn": "https://www.linkedin.com/in/yelena-cox/",
             "email": "yelenacox@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "Batman.png"
+            "funImg": "NightWing.png"
         },
         {
             "id": 5,
@@ -62,10 +62,10 @@
             "lastName": "Ero",
             "reelThemIn": "“Everything you do in life will be insignificant, but it’s very important that you do it anyway.”",
             "github": "https://github.com/MorganEro",
-            "linkedIn": "www.linkedin.com/in/morgan-ero",
+            "linkedIn": "https://www.linkedin.com/in/morgan-ero",
             "email": "morganero1@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "GreenLantern.png"
+            "funImg": "Deathstroke.png"
         },
         {
             "id": 7,
@@ -73,10 +73,10 @@
             "lastName": "Johns",
             "reelThemIn": "“If you want something you've never had, you must be willing to do something you've never done.” ― Thomas Jefferson",
             "github": "https://github.com/JoshuaJohns",
-            "linkedIn": "www.linkedin.com/in/joshuajohns66",
+            "linkedIn": "https://www.linkedin.com/in/joshuajohns66",
             "email": "joshuawjohns66@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "Deathstroke.png"
+            "funImg": "Spiderman.png"
         },
         {
             "id": 8,
@@ -100,7 +100,7 @@
             "portfolio": "https://www.greglawrence.me",
             "email": "gregaudio@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "Superman.png"
+            "funImg": "IronMan.png"
         },
         {
             "id": 10,
@@ -122,7 +122,7 @@
             "linkedIn": "https://www.linkedin.com/in/simone-marcantel/",
             "email": "simonemarcantel04@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "IronMan.png"
+            "funImg": "Batman.png"
         },
         {
             "id": 12,
@@ -174,7 +174,7 @@
             "lastName": "Sweeten",
             "reelThemIn": "“We don't make mistakes, just happy accidents.”",
             "github": "https://github.com/jsweeten",
-            "linkedIn": "www.linkedin.com/in/justinsweeten",
+            "linkedIn": "https://www.linkedin.com/in/justinsweeten",
             "email": "jtsweeten@gmail.com",
             "proImg": "JustinSweeten.jpg",
             "funImg": "GreenArrow.png"
@@ -188,7 +188,7 @@
             "linkedIn": "https://www.linkedin.com/in/rtaylor928/",
             "email": "rebekahtdesigns@gmail.com",
             "proImg": "proimageHolder.png",
-            "funImg": "NightWing.png"
+            "funImg": "Flash.png"
         },
         {
             "id": 18,
@@ -199,7 +199,7 @@
             "linkedIn": "https://www.linkedin.com/in/jacobgthomas/",
             "email": "jacgretho@gmail.com",
             "proImg": "JacobThomas.jpg",
-            "funImg": "Flash.png"
+            "funImg": "GreenLantern.png"
         },
         {
             "id": 19,
@@ -210,7 +210,7 @@
             "linkedIn": "https://www.linkedin.com/in/samueltrevan/",
             "email": "samuel.trevan@gmail.com",
             "proImg": "SamuelTrevan.jpg",
-            "funImg": "AquaMan.png"
+            "funImg": "Deadpool.png"
         },
         {
             "id": 20,
@@ -221,7 +221,7 @@
             "linkedIn": "https://www.linkedin.com/in/reggie-williams-jr/",
             "email": "rlwjr433@gmail.com",
             "proImg": "ReginaldWilliams.jpg",
-            "funImg": "Deadpool.png"
+            "funImg": "Wolverine.png"
         }
     ]
 }
