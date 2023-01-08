@@ -159,9 +159,8 @@ main {
 .technos,
 .words {
     margin-top: -55px;
-    padding: 40px;
     border-radius: 10px;
-    border: 1px solid #a5a5a5;
+    border: 1px solid #d3d3d3;
     box-shadow: 2px 2px 2px rgb(104, 104, 104);
     background: white;
 }
@@ -172,7 +171,7 @@ main {
 }
 
 .words {
-    padding: 50px;
+    padding: 90px;
 }
 
 .no-gutters {
