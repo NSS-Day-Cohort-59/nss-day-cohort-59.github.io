@@ -156,7 +156,15 @@ main {
     border-radius: 0px;
 }
 
-.technos,
+.technos {
+    margin-top: -55px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+    background: white;
+}
+
 .words {
     margin-top: -55px;
     border-radius: 10px;
@@ -166,7 +174,7 @@ main {
 }
 
 .techs {
-    width: 70px;
+    width: 40px;
     margin: 20px 0px;
 }
 
