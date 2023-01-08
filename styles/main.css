@@ -174,9 +174,9 @@ main {
 }
 
 .techs {
-    width: 50px;
+    width: 60px;
     padding: 10px;
-    margin: 0px 0px;
+    margin: 10px 0px;
 }
 
 .words {
@@ -238,7 +238,7 @@ main {
 .modal-body img {
     width: 50%;
     height: 50%;
-    box-shadow: 3px 3px 5px rgb(43, 43, 43);
+    /* box-shadow: 3px 3px 5px rgb(43, 43, 43); */
     border-radius: 20px;
 }
 
