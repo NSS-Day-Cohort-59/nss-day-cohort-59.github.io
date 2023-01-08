@@ -44,48 +44,42 @@
         },
         {
             "id": 8,
-            "name": "Browserify",
-            "image": "browserify.png",
-            "link": "http://browserify.org/"
-        },
-        {
-            "id": 9,
             "name": "NPM",
             "image": "npm.png",
             "link": "https://www.npmjs.com/"
         },
         {
-            "id": 10,
+            "id": 9,
             "name": "SQL Server",
             "image": "sqlserver.png",
             "link": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
         },
         {
-            "id": 11,
+            "id": 10,
             "name": "Visual Studio Code",
             "image": "vsc.png",
             "link": "https://code.visualstudio.com/"
         },
         {
-            "id": 12,
+            "id": 11,
             "name": "C#",
             "image": "csharp.png",
             "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
         },
         {
-            "id": 13,
+            "id": 12,
             "name": ".NET Core",
             "image": "dotnetcore.png",
             "link": "https://www.microsoft.com/net/"
         },
         {
-            "id": 14,
+            "id": 13,
             "name": "Visual Studio",
             "image": "VisualStudio.png",
             "link": "https://www.visualstudio.com/vs/"
         },
         {
-            "id": 15,
+            "id": 14,
             "name": ".Net MVC",
             "image": "aspnetMVC.png",
             "link": "https://www.asp.net/mvc"

@@ -145,7 +145,7 @@ main {
 .col-md-3.cohortMems {
     border: 1px solid #d1d1d1;
     border-radius: 30px;
-    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+    box-shadow: 2px 2px 2px rgb(8, 0, 71);
     background: rgb(255, 255, 255);
     margin: 15px;
     margin-bottom: 20px;
@@ -159,14 +159,14 @@ main {
 .technos {
     margin-top: 0px;
     padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #EE822F;
+    border-radius: 20px;
+    border: 1px dashed #EE822F;
     /* box-shadow: 2px 2px 2px rgb(246, 243, 243); */
     background: white;
 }
 
 .words {
-    margin-top: -30px;
+    margin-top: 0px;
     border-radius: 20px;
     border: 1px solid #cac7c7;
     box-shadow: 2px 2px 2px rgb(87, 87, 87);
