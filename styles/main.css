@@ -145,15 +145,15 @@ main {
 .col-md-3.cohortMems {
     border: 1px solid #d1d1d1;
     border-radius: 30px;
-    box-shadow: 2px 2px 2px rgb(122, 122, 122);
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
     background: rgb(255, 255, 255);
     margin: 15px;
     margin-bottom: 20px;
 }
 
 .col-sm-2.technologies {
-    border: none;
-    border-radius: none;
+    border: 0px solid white;
+    border-radius: 0px;
 }
 
 .technos,
@@ -161,9 +161,9 @@ main {
     margin-top: -55px;
     padding: 40px;
     border-radius: 10px;
-    border: 2px solid #001e48;
-    box-shadow: 2px 2px 2px rgb(122, 122, 122);
-    background: rgb(255, 255, 255);
+    border: 1px solid #a5a5a5;
+    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+    background: white;
 }
 
 .techs {
