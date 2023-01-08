@@ -157,7 +157,7 @@ main {
 }
 
 .technos {
-    margin-top: -70px;
+    margin-top: -30px;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #d3d3d3;
@@ -166,21 +166,21 @@ main {
 }
 
 .words {
-    margin-top: -55px;
+    margin-top: -30px;
     border-radius: 20px;
-    border: 1px solid #d3d3d3;
-    box-shadow: 2px 2px 2px rgb(104, 104, 104);
+    border: 1px solid #cac7c7;
+    box-shadow: 2px 2px 2px rgb(87, 87, 87);
     background: #a8c9f7;
 }
 
 .techs {
-    width: 40px;
+    width: 50px;
     padding: 10px;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 .words {
-    padding: 90px;
+    padding: 80px;
 }
 
 .no-gutters {
