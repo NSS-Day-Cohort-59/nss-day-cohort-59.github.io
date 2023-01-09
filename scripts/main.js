@@ -100,18 +100,11 @@ function cohortMembers(list) {
         <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-           <center><h5 class="modal-header" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5></center>
-            <br>
-
             `
 
-      studentInfo += studentContact
-
-
       studentInfo += `
-      
-    ${item.resumeLink}
+        <iframe id="resumePDF" src="${item.resumeLink}" frame border="0"></iframe>
+
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
