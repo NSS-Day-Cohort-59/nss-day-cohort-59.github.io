@@ -277,14 +277,16 @@ button {
 } */
 
 .btn-outline-primary {
-    color: white !important;
+    border-radius: 20px;
+    color: rgb(6, 0, 95) !important;
     border-color: #dbdbdb !important;
-    background-color: #d87422 !important;
+    background-color: rgb(206, 221, 255) !important;
 }
 
 .btn-outline-primary:hover {
+    border-radius: 35px;
     color: white !important;
-    background-color: #001e48 !important;
+    background-color: #c8c8c8 !important;
 }
 
 /* adjusts size of contact icons depending on size of card */
