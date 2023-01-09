@@ -87,9 +87,9 @@ function cohortMembers(list) {
     if (item.resumeLink != null) {
       studentInfo += `
           <center>
-            <button type="button" class="btn btn-outline-primary title-font bottom"
-              data-toggle="modal" data-target="#cohortMember${item.id}" target="_blank">
-              <a href="${item.resumeLink}">View Resume</a>
+            <button type="button" class="btn btn-outline-primary bottom"
+              data-toggle="modal" data-target="#cohortMember${item.id}">
+              <a href="${item.resumeLink}" target="_blank">View Resume</a>
           </center><br>
           </div>
         </div>`
