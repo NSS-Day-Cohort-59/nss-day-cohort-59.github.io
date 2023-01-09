@@ -277,14 +277,13 @@ button {
 } */
 
 .btn-outline-primary {
-    border-radius: 20px;
+    border-radius: 15px;
     color: rgb(6, 0, 95) !important;
     border-color: #dbdbdb !important;
-    background-color: rgb(194, 212, 252) !important;
+    background-color: rgb(170, 197, 255) !important;
 }
 
 .btn-outline-primary:hover {
-    border-radius: 35px;
     color: white !important;
     background-color: #c8c8c8 !important;
 }
