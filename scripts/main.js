@@ -43,6 +43,7 @@ function cohortMembers(list) {
               <i class="fas fa-envelope fa-2x contactIcons"></i>
             </a>`
     }
+
     studentContact += `</div>`
 
     //code for classmate photos and hover photos
@@ -60,6 +61,11 @@ function cohortMembers(list) {
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
       studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center>`
+    }
+
+    if (item.resumeLink != null) {
+
+      studentInfo += `<center><button  class="resumeButton"><a href="${item.resumeLink}" class="resumeText" target="_blank">View Resume</a></button></center>`
     }
     studentInfo += studentContact
 
