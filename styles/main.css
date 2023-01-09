@@ -262,12 +262,10 @@ main {
 
 button {
     cursor: pointer;
-
 }
 
-.resumeButton {
+/* .resumeButton {
     background-color: #d87422;
-    padding: 10px;
     border-radius: 25px;
     border-width: 1px;
 }
@@ -276,11 +274,12 @@ button {
     color: white;
     margin: 5px;
 
-}
+} */
 
 .btn-outline-primary {
-    color: #dbdbdb !important;
-    border-color: #001e48 !important;
+    color: white !important;
+    border-color: #dbdbdb !important;
+    background-color: #d87422 !important;
 }
 
 .btn-outline-primary:hover {
