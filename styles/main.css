@@ -46,7 +46,7 @@ blockquote {
     background-color: #CA4246;
     background: conic-gradient(#CA4246 16.666%,
             #E16541 16.666%,
-            #E16541 33.333%,
+            #e16541 33.333%,
             #F18F43 33.333%,
             #F18F43 50%,
             #8B9862 50%,
@@ -262,6 +262,18 @@ main {
 
 button {
     cursor: pointer;
+
+}
+
+.resumeButton {
+    background-color: #d87422;
+    border-radius: 25px;
+    border-width: 2px;
+}
+
+.resumeText {
+    color: white;
+
 }
 
 .btn-outline-primary {
