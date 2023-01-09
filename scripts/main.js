@@ -60,27 +60,36 @@ function cohortMembers(list) {
 
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
-      studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center>`
+      studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center><br><br>`
     }
 
-    if (item.resumeLink != null) {
+    // if (item.resumeLink != null) {
 
-      studentInfo += `
-        <center>
-          <button class="btn btn-outline-primary title-font" 
-            data-toggle="modal"><a href="${item.resumeLink}" class="resumeText" target="_blank">
-            View Resume</a>
-          </button>
-        </center>`
-    }
+    //   studentInfo += `
+    //     <center>
+    //       <button type="button" class="btn btn-outline-primary title-font bottom" 
+    //       data-toggle="modal" data-target="#cohortMember${item.id}">
+    //       Learn More!
+    //       </button>
+
+    //       <button class="btn btn-outline-primary title-font bottom" 
+    //         data-toggle="modal fade"><a href="${item.resumeLink}" class="resumeText" target="_blank">
+    //         View Resume</a>
+    //       </button>
+
+    //     </center>
+    //     </div>
+    //   </div>`
+    // }
+
     studentInfo += studentContact
-    //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
-    if (item.bio != null) {
+    //if a student doesn't have a resume, then the learn more button doesn't appear and a modal isn't created
+    if (item.resumeLink != null) {
       studentInfo += `
           <center>
             <button type="button" class="btn btn-outline-primary title-font bottom" 
               data-toggle="modal" data-target="#cohortMember${item.id}">
-              Learn More!
+              View Resume
             </button>
           </center>
           </div>
