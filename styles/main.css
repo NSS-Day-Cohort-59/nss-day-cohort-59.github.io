@@ -276,11 +276,6 @@ button {
 
 } */
 
-#resumePDF {
-    width: 85%;
-    height: 700px;
-}
-
 .btn-outline-primary {
     border-radius: 20px;
     color: rgb(6, 0, 95) !important;

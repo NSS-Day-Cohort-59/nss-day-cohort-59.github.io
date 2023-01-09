@@ -103,7 +103,7 @@ function cohortMembers(list) {
             `
 
       studentInfo += `
-        <iframe id="resumePDF" src="${item.resumeLink}" frame border="0"></iframe>
+        <iframe src="${item.resumeLink}" width="650" height="480" allow="autoplay"></iframe>
 
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
