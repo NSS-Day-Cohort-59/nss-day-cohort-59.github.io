@@ -65,10 +65,15 @@ function cohortMembers(list) {
 
     if (item.resumeLink != null) {
 
-      studentInfo += `<center><button  class="resumeButton"><a href="${item.resumeLink}" class="resumeText" target="_blank">View Resume</a></button></center>`
+      studentInfo += `
+        <center>
+          <button class="btn btn-outline-primary title-font" 
+            data-toggle="modal"><a href="${item.resumeLink}" class="resumeText" target="_blank">
+            View Resume</a>
+          </button>
+        </center>`
     }
     studentInfo += studentContact
-
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
     if (item.bio != null) {
       studentInfo += `
