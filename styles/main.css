@@ -267,17 +267,19 @@ button {
 
 .resumeButton {
     background-color: #d87422;
+    padding: 10px;
     border-radius: 25px;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .resumeText {
     color: white;
+    margin: 5px;
 
 }
 
 .btn-outline-primary {
-    color: #001e48 !important;
+    color: #dbdbdb !important;
     border-color: #001e48 !important;
 }
 
