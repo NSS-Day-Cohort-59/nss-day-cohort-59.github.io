@@ -87,19 +87,19 @@ function cohortMembers(list) {
     if (item.resumeLink != null) {
       studentInfo += `
           <center>
-            <button type="button" class="btn btn-outline-primary title-font bottom" tabindex="0"
-              data-toggle="modal" data-target="#cohortMember${item.id}">
+            <button type="button" class="btn btn-outline-primary title-font bottom"
+              data-toggle="modal" data-target="#cohortMember${item.id}" target="_blank">
               <a href="${item.resumeLink}">View Resume</a>
           </center><br>
           </div>
         </div>`
 
       //modal info
-      studentInfo += `
-        <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            `
+      // studentInfo += `
+      //   <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
+      //   <div class="modal-dialog" role="document">
+      //     <div class="modal-content">
+      //       `
 
       //   studentInfo += `
       //     <iframe src="${item.resumeLink}" width="700" height="500" allow="autoplay"></iframe>
