@@ -73,7 +73,7 @@ function cohortMembers(list) {
     //       </button>
 
     //       <button class="btn btn-outline-primary title-font bottom" 
-    //         data-toggle="modal fade"><a href="${item.resumeLink}" class="resumeText" target="_blank">
+    //         data-toggle="modal fade"><a href="${item.resumeLink}" class="resumePDF" target="_blank">
     //         View Resume</a>
     //       </button>
 
@@ -87,10 +87,9 @@ function cohortMembers(list) {
     if (item.resumeLink != null) {
       studentInfo += `
           <center>
-            <button type="button" class="btn btn-outline-primary title-font bottom" 
+            <button type="button" class="btn btn-outline-primary title-font bottom" tabindex="0"
               data-toggle="modal" data-target="#cohortMember${item.id}">
-              View Resume
-            </button>
+              <a href="${item.resumeLink}">View Resume</a>
           </center><br>
           </div>
         </div>`
@@ -102,17 +101,17 @@ function cohortMembers(list) {
           <div class="modal-content">
             `
 
-      studentInfo += `
-        <iframe src="${item.resumeLink}" width="650" height="480" allow="autoplay"></iframe>
+      //   studentInfo += `
+      //     <iframe src="${item.resumeLink}" width="700" height="500" allow="autoplay"></iframe>
 
-    </div>
-    <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
-      Back
-              </button></center>
-            
-          </div >
-        </div >
-      </div > `;
+      // </div>
+      // <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
+      //   Back
+      //           </button></center>
+
+      //       </div >
+      //     </div >
+      //   </div > `;
     } else {
       studentInfo += `
       </div>
