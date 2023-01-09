@@ -87,14 +87,14 @@ function cohortMembers(list) {
     if (item.resumeLink != null) {
       studentInfo += `
           <center>
-            <button type="button" class="btn btn-outline-primary bottom"
-              data-toggle="modal" data-target="#cohortMember${item.id}">
+            <button type="button" class="btn btn-outline-primary title-font bottom"
+              data-target="#cohortMember${item.id}">
               <a href="${item.resumeLink}" target="_blank">View Resume</a>
           </center><br>
           </div>
         </div>`
 
-      //modal info
+      //modal info -- commented out so the modal doesn't appear
       // studentInfo += `
       //   <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
       //   <div class="modal-dialog" role="document">
