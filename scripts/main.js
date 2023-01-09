@@ -60,7 +60,7 @@ function cohortMembers(list) {
 
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
-      studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center><br><br>`
+      studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center>`
     }
 
     // if (item.resumeLink != null) {
@@ -91,7 +91,7 @@ function cohortMembers(list) {
               data-toggle="modal" data-target="#cohortMember${item.id}">
               View Resume
             </button>
-          </center>
+          </center><br>
           </div>
         </div>`
 
@@ -102,12 +102,7 @@ function cohortMembers(list) {
           <div class="modal-content">
             <div class="modal-header">
            <center><h5 class="modal-header" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5></center>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-            <center><img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/></center><br>
+            <br>
 
             `
 
@@ -116,7 +111,7 @@ function cohortMembers(list) {
 
       studentInfo += `
       
-    ${item.bio}
+    ${item.resumeLink}
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
