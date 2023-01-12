@@ -121,7 +121,7 @@ blockquote {
 .jumbotron.jumbotron-fluid img {
     background: none;
     width: 100%;
-    margin-top: -80px;
+    margin-top: -20px;
 }
 
 main {
@@ -309,7 +309,7 @@ button {
     } */
     .jumbotron.jumbotron-fluid img {
         background: white;
-        margin-top: 30px;
+        margin-top: 106px;
     }
 
     .jumbotron.jumbotron-fluid.sm-width {
