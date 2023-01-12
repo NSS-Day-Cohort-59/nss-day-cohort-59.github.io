@@ -63,54 +63,55 @@ function cohortMembers(list) {
       studentInfo += `<center><p class="card-text">${item.reelThemIn}</p></center>`
     }
 
-    if (item.resumeLink != null) {
+    // if (item.resumeLink != null) {
 
-      studentInfo += `<center><button  class="resumeButton"><a href="${item.resumeLink}" class="resumeText" target="_blank">View Resume</a></button></center>`
-    }
+    //   studentInfo += `
+    //     <center>
+    //       <button type="button" class="btn btn-outline-primary title-font bottom" 
+    //       data-toggle="modal" data-target="#cohortMember${item.id}">
+    //       Learn More!
+    //       </button>
+
+    //       <button class="btn btn-outline-primary title-font bottom" 
+    //         data-toggle="modal fade"><a href="${item.resumeLink}" class="resumePDF" target="_blank">
+    //         View Resume</a>
+    //       </button>
+
+    //     </center>
+    //     </div>
+    //   </div>`
+    // }
+
     studentInfo += studentContact
-
-    //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
-    if (item.bio != null) {
+    //if a student doesn't have a resume, then the learn more button doesn't appear and a modal isn't created
+    if (item.resumeLink != null) {
       studentInfo += `
           <center>
-            <button type="button" class="btn btn-outline-primary title-font bottom" 
-              data-toggle="modal" data-target="#cohortMember${item.id}">
-              Learn More!
-            </button>
-          </center>
+            <button type="button" class="btn btn-outline-primary title-font bottom"
+              data-target="#cohortMember${item.id}">
+              <a href="${item.resumeLink}" target="_blank">View Resume</a>
+          </center><br>
           </div>
         </div>`
 
-      //modal info
-      studentInfo += `
-        <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-           <center><h5 class="modal-header" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5></center>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-            <center><img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/></center><br>
+      //modal info -- commented out so the modal doesn't appear
+      // studentInfo += `
+      //   <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
+      //   <div class="modal-dialog" role="document">
+      //     <div class="modal-content">
+      //       `
 
-            `
+      //   studentInfo += `
+      //     <iframe src="${item.resumeLink}" width="700" height="500" allow="autoplay"></iframe>
 
-      studentInfo += studentContact
+      // </div>
+      // <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
+      //   Back
+      //           </button></center>
 
-
-      studentInfo += `
-      
-    ${item.bio}
-    </div>
-    <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
-      Back
-              </button></center>
-            
-          </div >
-        </div >
-      </div > `;
+      //       </div >
+      //     </div >
+      //   </div > `;
     } else {
       studentInfo += `
       </div>
