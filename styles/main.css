@@ -189,7 +189,9 @@ main {
 }
 
 .card-img-top {
-    /* width: 285px; */
+    object-fit: cover;
+    object-position: top;
+    height: 23em;
     padding: 10px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
